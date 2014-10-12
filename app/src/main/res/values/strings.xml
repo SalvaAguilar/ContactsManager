@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ContactsManager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_name_default">Sundar</string>
+    <string name="surname_default">Pichai</string>
+    <string name="title_activity_contact_detail">ContactDetailActivity</string>
+    <string name="title_general_list">My contacts</string>
+
+</resources>

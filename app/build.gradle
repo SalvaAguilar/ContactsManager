@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        applicationId "silverhillapps.com.contactsmanager"
+        minSdkVersion 15
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.loopj.android:android-async-http:1.4.5'
+    compile 'com.google.code.gson:gson:1.7.2'
+    compile 'com.squareup.dagger:dagger:1.2.1'
+    provided 'com.squareup.dagger:dagger-compiler:1.2.1'
+}
